@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Post Terms Order\n"
+"POT-Creation-Date: 2024-06-17 17:26+0300\n"
+"PO-Revision-Date: 2024-06-17 17:26+0300\n"
+"Last-Translator: NspCode <contact@nsp-code.com>\n"
+"Language-Team: Nsp-Code <contact@nsp-code.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../include/class-functions.php:284
+msgid ""
+"Did you find this plugin useful? Please support our work with a donation or "
+"write an article about this plugin in your blog with a link to our site"
+msgstr ""
+
+#: ../include/class-functions.php:285
+msgid "Did you know there is available an advanced version of this plug-in?"
+msgstr ""
+
+#: ../include/class-functions.php:285
+msgid "Read more"
+msgstr ""
+
+#: ../include/class-functions.php:286
+msgid "Check our"
+msgstr ""
+
+#: ../include/class-functions.php:286
+msgid ""
+"plugin which allow to custom sort categories and custom taxonomies terms"
+msgstr ""
+
+#: ../include/class-interface.php:171
+msgid "Sort order reset successfully"
+msgstr ""
+
+#: ../include/class-interface.php:175 ../include/class-interface.php:197
+#: ../include/class-interface_helper.php:50
+msgid "Invalid Nonce"
+msgstr ""
+
+#: ../include/class-interface.php:207 ../include/class-interface_helper.php:83
+msgid "Post Terms Order Updated"
+msgstr ""
+
+#: ../include/class-interface.php:262
+msgid "Post Terms Order"
+msgstr ""
+
+#: ../include/class-interface.php:266
+msgid ""
+"This plugin can't work without javascript, because it's use drag and drop "
+"and AJAX."
+msgstr ""
+
+#: ../include/class-interface.php:316
+msgid "Available Post Types"
+msgstr ""
+
+#: ../include/class-interface.php:357
+msgid "Post Type Objects"
+msgstr ""
+
+#: ../include/class-interface.php:446
+msgid "Object Taxonomies"
+msgstr ""
+
+#: ../include/class-interface.php:461
+msgid "Object selection is required"
+msgstr ""
+
+#: ../include/class-interface.php:517
+msgid "There are no taxonomies assigned to current post type object"
+msgstr ""
+
+#: ../include/class-interface.php:560
+msgid "Manual Order"
+msgstr ""
+
+#: ../include/class-interface.php:561
+msgid "Automatic Order"
+msgstr ""
+
+#: ../include/class-interface.php:593 ../include/class-interface.php:639
+msgid "Update"
+msgstr ""
+
+#: ../include/class-interface.php:617
+msgid "No terms to display, a Taxonomy selection is required"
+msgstr ""
+
+#: ../include/class-interface.php:651
+msgid "Reset Order"
+msgstr ""
+
+#: ../include/class-interface.php:661
+msgid "Are you sure you want to reset the order?"
+msgstr ""
+
+#: ../include/class-walkers.php:193
+#, php-format
+msgid "#%d (no title)"
+msgstr ""

@@ -1,0 +1,52 @@
+#pto select {min-width: 60%; max-width: 100%}
+#pto h2.nav-tab-wrapper{padding-left: 10px}
+#pto h2 .nav-tab {font-size: 12px; font-weight: bold; padding: 2px 10px 3px; margin-right: 0; margin: 0 10px 0 0 }
+
+#pto .tips {width: 16px; height: 16px; cursor: help; vertical-align: middle}
+     
+#ajax-response .updated { background-color: #BBDCEC; border-color: #92BBCE; color: #000000;}
+
+table.pto_input {    border: 0 none;    background: #fff;}
+table.pto_input tbody tr td {    padding: 10px 12px;    border-top: 1px solid #f5f5f5;    border-bottom: 0 none;}
+table.pto_input tbody tr:first-child td,
+table.pto_input tbody tr:first-child td.label {    border-top: 0 none;}
+
+table.pto_input tbody tr td.label {    width: 20%;    vertical-align: top;    background: #F9F9F9;    border-top: 1px solid #f0f0f0;    border-right: 1px solid #E1E1E1;}
+.pto_input tbody tr td.label label{    display: block;    font-size: 12px;    font-weight: bold;    padding: 0;    margin: 0;    color: #333;    }
+table.pto_input tbody tr td.label p{    display: block;    font-size: 12px;    padding: 6px 0 !important;    margin: 0 !important;    font-style: normal;    line-height: 16px;    color: #666;}
+table.pto_input tbody tr.submit td {background-color: #F9F9F9; text-align: right}
+table.pto_input tbody tr.submit td.label {border-right: 1px solid #F9F9F9}
+
+
+#pto-sort #sortable { list-style-type: none; margin: 10px 0 0; padding: 0; width: 100%; }
+#pto-sort #sortable >li {position: relative}
+#pto-sort ul {list-style: none; margin-left:20px; list-style: none; }
+#pto-sort .post_type_li .item { border: 1px solid #E6E6E6;height: auto;line-height: 27px;overflow: hidden;padding-left: 10px;position: relative; text-shadow: 0 1px 0 #FFFFFF;width: auto;word-wrap: break-word;cursor: move;background: url("../images/gray-grad.png") repeat-x scroll left top #DFDFDF;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;transition:All 0.5s ease;-webkit-transition:All 0.5s ease;-moz-transition:All 0.5s ease;-o-transition:All 0.5s ease;}
+#pto-sort .post_type_li .item span.i_description { display: block;line-height: 20px;padding: 5px 0; white-space: nowrap; font-weight: bold; overflow: hidden;}
+#pto-sort .ui-sortable-placeholder{border-color:#bbb;background-color:#FCFCFC; height:30px; background-image: none; -moz-border-radius: 6px 6px 6px 6px; border: 1px dashed #E6E6E6; -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+#pto-sort .ui-sortable-helper{filter:alpha(opacity=75); /* for internet explorer */opacity: 0.75; /* CSS3 standard */-moz-opacity:0.75; /* for older gecko browsers */-khtml-opacity: 0.75; /* for older webkit browsers */}
+#pto-sort .no-nesting .ui-sortable-placeholder {background-color: transparent; border: none}
+
+#dragHelper li, #dragHelper ul {background: transparent !important;}
+#dragHelper ol {list-style: none;}
+
+#pto-sort #nav-menu-header {background: url("../images/gray-grad.png") repeat-x scroll left top #DFDFDF; -moz-border-radius-topleft: 6px; -moz-border-radius-topright: 6px;border-width: 1px 1px 0;border-color: #CCCCCC;border-style: solid; margin-bottom: 0;}
+#pto-sort #nav-menu-header .major-publishing-actions {clear: both;padding: 5px 10px;}
+#pto-sort #nav-menu-header .actions {padding: 0px; margin: 0px; position: relative}
+#pto-sort #nav-menu-header .img_spacer {width: 18px; height: 18px; float: left}
+#pto-sort #nav-menu-header .save-order {float: left}
+#pto-sort #nav-menu-footer {background: url("../images/gray-grad.png") repeat-x scroll left top #DFDFDF; -moz-border-radius-bottomleft: 6px; -moz-border-radius-bottomright: 6px;border-width: 0 1px 1px 1px;border-color: #CCCCCC;border-style: solid;}
+#pto-sort #nav-menu-footer .major-publishing-actions {clear: both;padding: 5px 10px;} 
+#pto-sort #nav-menu-footer .submit {padding: 0px; margin-top: 0px}
+#pto-sort #post-body {background: none repeat scroll 0 0 #FFFFFF;border-width: 0 1px 0 1px;padding: 10px;border-color: #CCCCCC;border-style: solid;}
+
+#cpt_info_box {padding: 0 10px; border: 1px dashed #6aadcc; background-color: #FFF; margin-top: 10px;
+-webkit-box-shadow: 1px 1px 7px rgba(50, 50, 50, 0.17);
+-moz-box-shadow:    1px 1px 7px rgba(50, 50, 50, 0.17);
+box-shadow:         1px 1px 7px rgba(50, 50, 50, 0.17);}
+#pto #cpt_info_box a {text-decoration: none}
+#pto #cpt_info_box #donate_form { padding: 20px 0 17px;    text-align: center;    width: 100%;}
+#pto #p_right {float: right; background-color:#f5f5f5; border: 1px dashed #6aadcc; padding: 0px 10px; margin-top: 10px}
+#pto .p_s_item {float: right; padding: 0px 5px; margin-top: 10px; margin-bottom: 10px;}
+#pto .p_s_item > iframe, #pto .p_s_item > div {display: block}
+#pto .p_s_item.s_gp {padding-top: 0px; margin-left: 0px}
