@@ -5,7 +5,7 @@
 * Description: Sort Taxonomy Terms per Post based using a Drag and Drop Sortable JavaScript capability
 * Author: Nsp Code
 * Author URI: http://www.nsp-code.com 
-* Version: 1.2.7
+* Version: 1.2.8
 * Text Domain: post-terms-order
 * Domain Path: /languages/ 
 */
