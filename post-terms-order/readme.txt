@@ -2,8 +2,8 @@
 Contributors: Nsp Code
 Tags: post terms order, terms order, post terms order per post basis, post taxonomy order, post taxonomy terms order
 Requires at least: 3.2
-Tested up to: 6.8.1
-Stable tag: 1.2.9
+Tested up to: 6.8.2
+Stable tag: 1.3
 
 Sort Taxonomy Terms per Post basis using a Drag and Drop Sortable JavaScript capability.
 
@@ -52,6 +52,9 @@ All existing custom post types are supported
 1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif).
 
 == Changelog ==
+
+= 1.3 =
+* Add a Settings link to the plugin within the Plugins area to make it easier for users to get started with the plugin.
 
 = 1.2.9 =
 * WordPress 6.8.1 compatibility check and tag update

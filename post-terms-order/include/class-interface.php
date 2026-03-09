@@ -75,11 +75,15 @@
                     //set the current selection data
                     $this->load_selection_settings();
                                      
-                    add_action( 'admin_menu', array($this, 'admin_menu') );   
+                    add_action( 'admin_menu', array($this, 'admin_menu') );
+                    
+                    add_filter( 'plugin_action_links_post-terms-order/post-terms-order.php',                  array ( $this,  'add_plugin_action_links') );
+                    add_filter( 'network_admin_plugin_action_links_post-terms-order/post-terms-order.php' ,   array ( $this,  'add_plugin_action_links')  );
+                       
                 }
 
                 
-             function admin_menu()
+            function admin_menu()
                 {
                     $hookID   = add_options_page('Post Terms Order', '<img style="display: inline;    margin-right: 4px;    margin-top: -1px;    vertical-align: middle;"class="menu_pto" src="'. PTeO_URL .'/images/menu-icon.png" alt="" />' .'Post Terms Order', 'manage_options', 'pto_interface', array($this, 'reorder_interface'));
                         
@@ -91,7 +95,7 @@
                 } 
                 
              
-             function load_dependencies()
+            function load_dependencies()
                     {
 
                     }
@@ -804,6 +808,16 @@
                         echo $html;
                     }
                     return $html;
+                }
+                
+                
+            function add_plugin_action_links( $plugin_actions )
+                {
+                    $new_actions = array();
+
+                    $new_actions['pteo_settings'] = sprintf( __( '<a href="%s">Settings</a>', 'post-terms-order' ), esc_url( admin_url( 'options-general.php?page=pto_interface' ) ) );
+
+                    return array_merge( $new_actions, $plugin_actions );    
                 }
                 
         }
